@@ -111,6 +111,7 @@ export default function IntroCard({ handleClick }) {
                                 direction="column"
                                 alignItems="center"
                                 spacing={3}
+                                sx={{ animation: 'reveal 6s ease forwards' }}
                             >
                                 <img
                                     src={giphyGif}
@@ -118,7 +119,6 @@ export default function IntroCard({ handleClick }) {
                                         width: '50%',
                                         height: 'auto',
                                         alignItems: 'center',
-                                        animation: 'reveal 6s ease forwards'
                                     }}
                                     alt="Giphy GIF"
                                 />
